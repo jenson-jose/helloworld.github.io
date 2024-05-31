@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio </title>
+    <link rel="stylesheet" href="./styles.css">
+        <style>
+        
+         .container{
+            text-align: center;
+           background-image: url(about_me_pic2.jpg);
+          height: 900px;
+          background-color:#EEEEEE;
+          
+                
+          
+           
+
+         }
+         .container h2{
+            text-align: center;
+            padding: 2%;
+         }
+         .Activity img{
+        
+            width: "100";
+            height: "100";
+           animation: cubic-bezier(0.19, 1, 0.22, 1);
+         }
+    
+         
+         .main {
+            background-color:#373A40;
+            
+            
+         }
+         .main h1{
+            padding: 4%;
+         }
+         .nav{
+            color: white;
+            background-color: #EEEEEE;
+            
+
+         }
+         .about img{
+            width: "10";
+            height: "10";
+         }
+         h1{
+            color: white;
+         }
+         p{
+            color: white;
+         }
+         .CONT{
+            background-color:#7e7a77;
+         }
+         h2{
+            color: #fdf9f9;
+            text-align: justify;
+            
+
+         }
+         .CONT h1{
+            color: #000;
+         }
+         .CONT p {
+            color: #000;
+            width: 200px;
+
+         }
+         
+        
+         .Activity img{
+            width: 500px;
+            height: 50px; 
+           
+         }
+
+        .Activity img{
+            align-items: center;
+            animation: backwards;
+           
+        }
+        .act{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            justify-content: space-around;
+            
+        }  
+        .pro h2{
+            padding: 2%;
+
+        }
+        .ach img{
+           justify-content: center;
+           justify-content: space-between;
+           text-align: center;
+            
+            
+        }
+        .abt{
+            display: flex; 
+        }
+         .main li{
+            display: inline-block;
+            padding: 3.5%;
+        }
+        .about p{
+            padding: 5%;
+            
+        }
+        .about p{
+            text-align: justify;
+            
+        }
+         .about h1{
+            text-align: center;
+         }
+         .ach h2{
+            text-align: center;
+         }
+         .main li h1 {
+           -webkit-text-fill-color: #000;
+         }
+         .nav li  h3 a {
+            -webkit-text-fill-color: #000;
+         }
+         .CONT tr p{
+            padding: 3%;
+         }
+         
+         .editing video{
+            width: 475px;
+            height: 475px;
+         }
+         .Activity h2{
+            text-align: center;
+
+         }
+         .editing h2{
+            text-align: center;
+         }
+         .ach img{
+            display: flex;
+            justify-content:space-between
+         }
+         .cert{
+            display: flex;
+            
+
+         }
+         
+         .phy{
+            padding: 110px;
+         }
+          .Activity h1{
+            text-align:left;
+            padding: 4%;
+
+          }
+         .abt pic button{
+            padding: 12px 70px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 2px solid black;
+         }
+        .ach h1{
+         text-align: left;
+         padding:4% ;
+
+
+        }
+        .skil  li h2{
+         text-align: left;
+        }
+      .bar{
+         background: #7e7a77;
+         display: block;
+         width: 1000px;
+         height: 20px;
+         border: 1px solid rgba(0, 0, 0, 0.3);
+         border-radius: 10px;
+         overflow: hidden;
+         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12) 0 1px 2px rgba( 0, 0, 0.24);
+         transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+      }
+      .bar:hover{
+         box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25) 0 10px 10px rgba( 0, 0, 0.22);
+      }
+      .bar span{
+         height: 20px;
+         float: left;
+         background: linear-gradient(135deg,rgba(236, 0,140, 1.0)0%,rgba(252,103,103,1)100%);
+      }
+      .Leadership{
+         width: 90%;
+         animation: Leadership 3s;
+      }
+      .Communication{
+         width: 70%;
+         animation: Communication 3s;
+      }
+      .Adaptability{
+         width: 80%;
+         animation:Adaptability  3s;
+
+      }
+      @keyframes Leadership{
+         0%{
+            width: 0%;
+         }
+         100%{
+            width: 90%;
+         }
+      }
+      @keyframes Communication{
+         0%{
+            width: 0%;
+         }
+         100%{
+            width: 70%;
+         }
+      }
+      @keyframes Adaptability{
+         0%{
+            width: 0%;
+         }
+         100%{
+            width: 80%;
+         }
+      }
+      .CONT  h2 {
+         text-align: justify;
+         padding-top: 2%;
+         color: #000;
+         
+      }
+      .CONT h1{
+         text-align: left;
+         padding: 3%;
+      } 
+     
+      
+      .container section{
+         
+         height: 100vh;
+         position: relative;
+
+      }
+      a#scroll-btn{
+         position:absolute;
+         padding-top: 1%;
+         height: 5em;
+         width: 3em;
+         border: 0.2em solid black;
+         margin: auto;
+         left: 0;
+         right: 0;
+         top: 0.2em;
+         bottom: 6.25em;
+         border-radius: 3em;
+      }
+      a#scroll-btn::before{
+         position: absolute;
+         content: "";
+         margin: auto;
+         left: 0;
+         right: 0;
+         top: 1.2em;
+         height: 1.2em;
+         width: 1.2em;
+         background-color: #000;
+         border-radius: 50%;
+         animation: move-down 2s infinite;
+
+      }
+      @keyframes move-down{
+         80%{
+            opacity: 0.10;
+         }
+         100%{
+            transform: translateY(5.3em);
+            opacity: 0;
+
+         }
+      }
+      .container h1{
+         color:transparent;
+         -webkit-text-stroke: 3px white;
+         position: relative;
+
+      }
+      .container h1 ::before{
+         content: JENSON;
+         position: absolute;
+         width: 0%;
+         height: 100%;
+         overflow: hidden;
+         color: white;
+         border-right: 8px solid white;
+         transition: 1s ease-in-out;
+      }
+      .container h1:hover ::before{
+      width: 100%;
+      filter: drop-shadow(0 0 25px white);
+      }
+      .CONT h2 {
+         padding: 20px;
+         justify-content: space-around;
+      }
+      .icon{
+         text-align: center;
+         justify-content: space-around;
+      }
+
+
+      
+
+
+
+      
+      
+        </style>
+    </head>
+    <body>
+        <div class="main ">
+        <div class="nav">
+            <ul>
+                <li ><h3><a href="#home">Home </a></h3></li>
+                <li><h3><a href="#activity">Activity</a></h3></li>
+                <li><h3><a href="#about">About</a></h3></li>
+                <li><h3><a href="#skill">Skills</a></h3></li>
+                <li><h1>Hola.  </h1></li>
+                <li><h3><a href="#project">Project</a></h3></li>
+                <li><h3><a href="#achivement">Achivements</a></h3></li>
+                <li><h3><a href="#contact">Contact</a></h3></li>
+            </ul>
+             </div>
+             <div class="container" id="home">
+                <h1><br><br><br><br>
+                    JENSON</h1>
+                    <h2>You are the architect of your own fate, capable of shaping,<br> steering, and mastering your surroundings.<br> With your hands, you can craft the life you envision,<br> molding it into a masterpiece of your own design..</h2>
+                    <section id="section-1">
+                     <a id="scroll-btn" href="#activity"></a>
+                    </section>
+                
+                 
+             </div>
+             <div class="Activity" id="activity">
+                <h1>Activity</h1>
+                <h2>PHOTOGRAPHY </h2>
+                </div>
+                <div class="act ">
+                <div class="img">
+                
+                    <img src="./1575720110221.jpg" width="400" height="500" ></div>
+                <div class="img1">
+                    <img src="./WhatsApp Image 2024-05-27 at 11.54.32 PM.jpeg" width="400" height="500" ></div>
+                <div class="img2">
+                   <img src="./WhatsApp Image 2024-05-27 at 11.55.04 PM.jpeg" width="400" height="500"></div>
+                
+                </div>
+                <div class="editing">
+                    <h2>PHOTO EDITING</h2>
+                    <div class="video">
+                        
+                        <video  controls loop >
+                            <source src="lv_0_20240530124555.mp4"  type="video/mp4" >
+                          </video>
+                        
+                        
+                          <video controls loop>
+                            
+                            <source src="lv_0_20240530124649.mp4" type="video/mp4">
+                            
+                        </video>
+                          </video>
+                          <video controls loop>
+                            <source src="lv_0_20240530124719.mp4" type="video/mp4">
+                           
+                          </video>
+                        
+                    </div>
+                    
+                
+              <div class="about" id="about"></div>
+                <center><h1>ABOUT</h1></center>
+                <div class="abt pic">
+                    <img src="./about1.jpeg" width="450" height="600" >
+                                     
+               <h3> <p style="padding: 4%; text-align:justify;"> I'm Jenson Jose from Chalakudy, and I recently completed my BSc in Computer Science from Christ College Irinjalakuda. As a fresher, I'm eager to kickstart my career in the field. I have a foundational understanding of HTML, Python, and other programming languages, along with certification as a Microsoft Office Specialist.
+                    Beyond my technical skills,  I have a passion for photography and photo editing.Combining creativity with technology is where I find my stride. I'm excited about the prospect of integrating these interests into my professional journey. 
+                    Looking forward to exploring opportunities and contributing positively to the tech and creative industries.<br><center><br><button style="height: 5em; width: 10em;border-radius: 3em;background-color: rgb(191, 240, 240);"><a href="jenson (1).pdf" download class="btn btn--download"><b>Download CV </b></a></button></center> </p></h3>
+                    
+               
+              </div>
+             
+              </div> 
+              <div class="skil" id="skill">
+                <h1>SKILLS</h1>
+                <li><h2 >Leadership</h2>
+                  <span class="bar"><span class="Leadership"></span></span>
+               </li><br>
+               <li><h2>Communication</h2>
+                  <span class="bar"><span class="Communication"></span></span>
+               </li><br>
+               <li><h2>Adaptability</h2>
+                  <span class="bar"><span class="Adaptability"></span></span>
+               </li>
+
+              </div> 
+              <div class="pro" id="project">
+                <h1>PROJECTS</h1>
+                <h2><u>Audio To Sign Language</u></h2>
+                <P><h2 style="text-align: justify;"> In recent years, there has been a growing interest in developing 
+                    technologies that bridge the communication gap between 
+                    individuals who are deaf or hard on hearing and those who can 
+                    hear. One such technology is the Audio to Sign Language Tool, 
+                    which aims to translate spoken language into sign language 
+                    gestures in real-time. This innovative solution can enhance 
+                    communication and facilitate effective interaction between hearing 
+                    and deaf individuals. The Audio to Sign Language Tool leverages 
+                    the power of machine learning and computer vision techniques to 
+                    analyse spoken language and generate corresponding sign 
+                    language gestures. Python, a popular programming language, 
+                    provides a flexible and efficient platform for implementing this 
+                    converter. By utilizing Python libraries and frameworks, we can 
+                    create a robust and accurate system that can recognize and 
+                    interpret spoken language and generate the appropriate sign 
+                    language output. The key components of the Audio to Sign 
+                    Language Converter system include: Speech Recognition, Natural 
+                    Language Processing (NLP), User Interface, Lemmiatization, Stop 
+                    words, Tokenization, Characterization, Speech API, NLP toolkit, 
+                    localhost, Hand Gestures, Sign Language</h2></P>
+                    <img src="./Screenshot 2024-05-28 003031.png"width="400" height="350">
+                    <img src="./Screenshot 2024-05-28 003040.png"width="400" height="350">
+                    <img src="./Screenshot 2024-05-28 003051.png"width="400" height="350">
+                    <img src="./Screenshot 2024-05-28 003137.png"width="400" height="350">
+                    <h2><u>RememberMe System</u></h2>
+                    <h2 style="text-align: justify;">
+
+                     The RememberMe system is a reminder tool for managing birthdays and events, making sure important dates are never missed with daily notifications, automated birthday wishes, and the ability to upload and download event reports. It works on 64-bit Windows 7 or higher and uses Django. Faculties and students can register and log in to see a welcome page. Clicking the view button shows a calendar with events and birthdays for each date, plus downloadable brochures. The inbox button shows daily notifications of upcoming birthdays and events. The system also sends birthday wishes by email and lets faculties upload and download event reports for easy record-keeping. 
+                     The RememberMe system is a simple and effective way to keep track of important dates and activities.</h2> 
+                     
+                     
+                     <img src="Screenshot 2024-05-30 014536.png"width="400" height="300" justify-content="space-around">
+                     <img src="Screenshot 2024-05-30 014549.png"width="400" height="300" justify-content="space-around">
+                     <img src="Screenshot 2024-05-30 014606.png"width="400" height="300" justify-content="space-around">
+                     <img src="Screenshot 2024-05-30 014616.png"width="400" height="300" justify-content="space-around">
+                     
+                </div> 
+                <div class="cert" id="achivement">
+                <div class="ach">
+                 <h1> ACHIVEMENTS</h1>
+                  <h2> Microsoft Office Specialist</h2>
+                  <img src="./Screenshot 2024-05-28 004210.png " width="650" height="450"></div>
+                  <div class="phy">
+                     <h2>Python Data Science<br></h2>
+                 <img  src="hi.jpg" width="350" height="450"padding="400"  >
+                 </div>
+               </div>
+                
+                <div class="CONT" id="contact">
+                    <h1>CONTACT</h1>
+                    
+                     <h2><ion-icon name="mail"></ion-icon> jensonjose286@gmail.com</h2>
+                    <h2><ion-icon name="call-sharp"></ion-icon>+91 8848440667</h2> 
+                    <h2> <ion-icon name="location"></ion-icon>Pathiyaparambil House Thuruthiparambu,<br>Po Annallur Pin:-680731 Kerala,India</h2>
+                    
+                </div>
+            <div class="icon">
+               
+                <a href=" https://www.instagram.com/invites/contact/?igsh=ZnoxdzRkdXBleTF0&utm_content=g4kjy8m"></a>
+                  <ion-icon size="large"></ion-icon>
+                  <ion-icon name="logo-instagram" style="color: white; height: 50px;" ></ion-icon>
+               </a>
+               <a href="https://www.facebook.com/jenson.jose.927?mibextid=ZbWKwL">
+                  <ion-icon name="logo-facebook"style="color:white;height: 50px; "></ion-icon>
+               </a>
+                  <a href="tel:8848440667">
+                  <ion-icon name="call-outline" style="color: white; height: 50px;"></ion-icon>
+               </a>
+                  <a href="https://goo.gl/maps/D2T8dAif4CRoRhFs8">
+                     <ion-icon name="locate-outline" style="color: white; height: 50px;"></ion-icon>
+                  </a>
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+               </div>
+               </div>
+    </body>
+</html>
